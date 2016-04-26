@@ -12,7 +12,7 @@ title_separator          : " | "
 name                     : "Konke Radlow"
 description              : "Design techniques for embedded systems & Real-Time Software, PCBs and more "
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : https://koradlow.github.io
+url                      : //koradlow.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
