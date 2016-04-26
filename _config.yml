@@ -7,11 +7,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Test Blog"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Logbook of an Embedded Developper"
+title_separator          : " | "
+name                     : "Konke Radlow"
+description              : "Design techniques for embedded systems & Real-Time Software, PCBs and more "
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://koradlow.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -61,10 +62,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Konke Radlow"
+  avatar           : "profil_pic_small_rectangular.jpg"
+  bio              : "Turning a hobby into a profession"
+  location         : "Munich, Germany"
   email            :
   uri              :
   bitbucket        :
@@ -73,15 +74,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : koradlow
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : koradlow
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 418578/zitroneneis
   steam            :
   tumblr           :
   twitter          :
