@@ -15,8 +15,8 @@ main:
   - title: "About"
     url: /about/
     
-  - title: "Sitemap"
-    url: /sitemap/
+#  - title: "Sitemap"
+#    url: /sitemap/
     
   - title: "Future"
     url: /future/
