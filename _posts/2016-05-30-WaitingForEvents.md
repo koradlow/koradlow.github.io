@@ -22,7 +22,7 @@ the destination is either reached or a timeout event happens which can be handle
 axis_controllers = {axis:AxisController() for axis in ['x','y','z']} 
 
 # move to target position (sequential)
-target_postion = {'x':100, 'y': 650', z:'0'}
+target_postion = {'x':100, 'y': 650, 'z':0}
 for axis in axis_controllers:
     axis_controllers[axis].moveToPosition(target_position[axis])
     # wait for 10 seconds to 
