@@ -25,7 +25,7 @@ axis_controllers = {axis:AxisController() for axis in ['x','y','z']}
 target_postion = {'x':100, 'y': 650, 'z':0}
 for axis in axis_controllers:
     axis_controllers[axis].moveToPosition(target_position[axis])
-    # wait for 10 seconds to 
+    # give the axis 10 seconds to complete the movement
     if not axis_controllers[axis].targetReachedEvent.wait(10):
         print("Moving", axis, "to target position", target_position[axis], "failed with timeout")
         raise TimeoutError(axis)
